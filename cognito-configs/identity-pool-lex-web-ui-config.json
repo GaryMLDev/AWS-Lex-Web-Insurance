@@ -1,0 +1,13 @@
+{
+    "IdentityPoolId": "us-east-1:e6651565-27b9-46e6-9bc8-e2c7ae713ad3",
+    "IdentityPoolName": "Lex Web UI",
+    "AllowUnauthenticatedIdentities": true,
+    "CognitoIdentityProviders": [
+        {
+            "ProviderName": "cognito-idp.us-east-1.amazonaws.com/us-east-1_kd2D8ztv5",
+            "ClientId": "7cafs4pttsmkh06g6rs1fjn7lh",
+            "ServerSideTokenCheck": false
+        }
+    ],
+    "IdentityPoolTags": {}
+}

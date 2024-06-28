@@ -1,0 +1,85 @@
+{
+  "region": "us-east-1",
+  "cognito": {   
+    "poolId": "us-east-1:e6651565-27b9-46e6-9bc8-e2c7ae713ad3",
+    "appUserPoolClientId": "7cafs4pttsmkh06g6rs1fjn7lh",
+    "appUserPoolName": "us-east-1_kd2D8ztv5",
+    "appUserPoolIdentityProvider": "us-east-1_kd2D8ztv5",
+    "appDomainName": "lexkwebkuikidentitypoolconfigkjhiajpmqgheb965416011638.auth.us-east-1.amazoncognito.com",
+    "aws_cognito_region": "us-east-1",
+    "region": "us-east-1"
+  },
+  "connect": {
+    "contactFlowId": "",
+    "instanceId": "",
+    "apiGatewayEndpoint": "",
+    "promptForNameMessage": "Before starting a live chat, please tell me your name?",
+    "waitingForAgentMessage": "Thanks for waiting. An agent will be with you when available.",
+    "waitingForAgentMessageIntervalSeconds": "60",
+    "agentJoinedMessage": "{Agent} has joined.",
+    "agentLeftMessage": "{Agent} has left.",
+    "chatEndedMessage": "Chat ended.",
+    "attachChatTranscript": "false",
+    "liveChatTerms": "live chat",
+    "transcriptMessageDelayInMsec": "150"
+  },
+  "lex": {
+    "v2BotId": "4PGMWY8JQ3",
+    "v2BotAliasId": "TSTALIASID",
+    "v2BotLocaleId": "en_US",
+    "botName": "AutoInsuranceBot",
+    "botAlias": "$LATEST",
+    "initialText": "You can ask me for help ordering ins. Just type \"Buy ins\" or click on the mic and say it.",
+    "initialSpeechInstruction": "Say 'Buy Insurance' to get started.",
+    "initialUtterance": "",
+    "reInitSessionAttributesOnRestart": false,
+    "region": "us-east-1",
+    "retryOnLexPostTextTimeout": "false",
+    "retryCountPostTextTimeout": "1",
+    "allowStreamingResponses": false,
+    "streamingWebSocketEndpoint": "",
+    "streamingDynamoDbTable": ""
+  },
+  "ui": {
+    "parentOrigin": "https://dc9c6tyjit9ix.cloudfront.net/index.html",
+    "toolbarTitle": "Order Insurance",
+    "toolbarLogo": "",
+    "toolbarStartLiveChatLabel": "Start Live Chat",
+    "toolbarEndLiveChatLabel": "End Live Chat",
+    "toolbarStartLiveChatIcon": "people_alt",
+    "toolbarEndLiveChatIcon": "call_end",
+    "positiveFeedbackIntent": "Thumbs up",
+    "negativeFeedbackIntent": "Thumbs down",
+    "helpIntent": "Help",
+    "minButtonContent": "",
+    "avatarImageUrl": "",
+    "backButton": false,
+    "messageMenu": false,
+    "hideButtonMessageBubble": false,
+    "enableLogin": true,
+    "enableLiveChat": false,
+    "forceLogin": true,
+    "enableUpload": false,
+    "uploadS3BucketName": "",
+    "AllowSuperDangerousHTMLInMessage": true,
+    "shouldDisplayResponseCardTitle": false,
+    "saveHistory": false,
+    "helpContent": {},
+    "enableSFX": false,
+    "hideInputFieldsForButtonResponse": false,
+    "pushInitialTextOnRestart": false,
+    "directFocusToBotInput": false,
+    "showDialogStateIcon": false
+  },
+  "polly": {
+    "voiceId": "Salli"
+  },
+  "recorder": {
+    "preset": "speech_recognition"
+  },
+  "iframe": {
+    "iframeOrigin": "https://dc9c6tyjit9ix.cloudfront.net/index.html",
+    "shouldLoadIframeMinimized": false,
+    "iframeSrcPath": "/index.html#/?lexWebUiEmbed=true"
+  }
+}
